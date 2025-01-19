@@ -1,7 +1,21 @@
 const Navbar = () => {
     return (
         <div>
-            <h3>This is the navbar</h3>            
+            {/* Routes */}
+            <div>
+                <ul className="flex gap-4">
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            {/* Logo */}
+            <div>
+                <img src="/src/assets/Screenshot from 2025-01-19 18-05-47.png" alt="" />
+            </div>
+            {/* Account */}
+            
         </div>
     );
 };
