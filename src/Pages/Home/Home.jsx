@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <h3 className="flex justify-center bg-lime-700">This is homeeee</h3>
+            <h3 className="flex justify-center bg-lime-700">This is homee</h3>
         </div>
     );
 };
